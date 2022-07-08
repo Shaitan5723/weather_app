@@ -15,6 +15,12 @@ h1{
   margin-top:5px;
 }
 
+#lineBreak{
+  margin-top:15px;
+  margin-bottom:5px;
+  border-bottom: 2px solid;
+}
+
 .btn{
   margin-top: 10px;
 }
