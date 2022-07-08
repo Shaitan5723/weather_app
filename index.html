@@ -13,13 +13,19 @@
   </head>
 
   <body>
+    <header>
+      <div class="bg-info">
+        <h1 class="text-center">Weather Dashboard</h1>
+      </div>
+    </header>
+
     <div class="row">
       <div class="align-self-start col-2" id="searchBox">
         <h3 class="card-header text-center">Search for a City:</h3>
         <form id="search-form" class="card-body">
         <input type="text" id="search-city" class="form-control" placeholder="e.g. Toronto" aria-label="Recipient's username" aria-describedby="searchCities">
         <div class="d-grid gap-2">
-          <button class="btn btn-outline-secondary" type="button" id="searchCities">Search</button>
+          <button class="btn btn-secondary" type="button" id="searchCities">Search</button>
         </div>
         </form>
       </div>
