@@ -34,6 +34,9 @@ h1{
   border: 1px solid black;
   max-height: fit-content;
 }
+#searchedCity{
+  color:black
+}
 
 .card{
   margin-left:10px;
