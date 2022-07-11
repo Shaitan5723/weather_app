@@ -24,3 +24,22 @@ h1{
 .btn{
   margin-top: 10px;
 }
+
+#topSection{
+  margin-bottom: 50px;
+}
+
+#cityMain{
+  margin-top: 5px;
+  border: 1px solid black;
+  max-height: fit-content;
+}
+
+.card{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#forecast{
+  margin-left:20px;
+}

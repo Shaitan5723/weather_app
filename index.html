@@ -18,9 +18,9 @@
         <h1 class="text-center">Weather Dashboard</h1>
       </div>
     </header>
-
-    <div class="row">
-      <div class="align-self-start col-2" id="searchBox">
+ 
+    <div class="row" id="topSection">
+      <div class="col-2 align-self-start" id="searchBox">
         <h3 class="card-header text-center">Search for a City:</h3>
         <form id="search-form" class="card-body">
           <input type="text" id="search-city" class="form-control" placeholder="e.g. Toronto" aria-label="Recipient's username" aria-describedby="searchCities">
@@ -30,14 +30,70 @@
         </form>
         <div id="lineBreak"></div>
         <div class="d-grid gap-2">
-          <button class="btn btn-secondary" type="button" id="city">Search</button>
-          <button class="btn btn-secondary" type="button" id="city">Search</button>
-          <button class="btn btn-secondary" type="button" id="city">Search</button>
+          <button class="btn btn-secondary" type="button" id="searchCitiesBtn">Search</button>
+ 
           <!--This is where search history buttons will go-->
         </div>
       </div>
+      <div class="container col-9" id="cityMain">
+        <h1 id="city">City:</h1>
+          <h3>Temperature:</h3>
+          <h3>Wind:</h3>
+          <h3>Humidity:</h3>
+          <h3>UV Index:</h3>
+      </div>
     </div>
-     
+
+   
+      <h3 id="forecast">5-Day Forecast:</h3>
+      <div class="card-group" id="">
+        <div class="card col-2" id="">
+          <div class="card-body">
+            <h5>Date:</h5>
+
+          </div>
+        </div>
+
+        <div class="card col-2 " id="">
+          <div class="card-body">
+            <h5>Date:</h5>
+
+          </div>
+        </div>
+
+        <div class="card col-2" id="" >
+          <div class="card-body">
+            <h5>Date:</h5>
+
+          </div>
+        </div>
+
+        <div class="card col-2" id="">
+          <div class="card-body">
+            <h5>Date:</h5>
+
+          </div>
+        </div>
+
+        <div class="card col-2" id="" >
+          <div class="card-body">
+            <h5>Date:</h5>
+
+          </div>
+        </div>
+
+      </div>
+   
+
+
+        
+
+    <div class="container">
+      <div class="row">
+
+      </div>
+
+    </div>
 
 
     <script
