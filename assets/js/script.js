@@ -55,7 +55,7 @@ function addButtons(){
 async function sendApiRequest(){
   let API_KEY = "406b266e02e760ad8947072525883d81"
   let query = $("#search-city").val();
-  let queryURL = `http://api.openweathermap.org/geo/1.0/direct?q=${query}&appid=${API_KEY}`
+  let queryURL = `https://api.openweathermap.org/geo/1.0/direct?q=${query}&appid=${API_KEY}`
   $.ajax({
     url: queryURL
   })
