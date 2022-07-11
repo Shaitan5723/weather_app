@@ -9,15 +9,15 @@ As mentioned above, the application also draws data from the [OpenWeather API](h
 
 ### Features
 
-##### Simple User Interface
+#### Simple User Interface
 The UI design is easy to use and understand. The user simply inputs their desired city to return results.
 ![simple UI design](/assets/images/empty1.png)
 
-##### Current & Future Weather Information
+#### Current & Future Weather Information
 The page displays the current weather information as well as a 5-day forecast.
 ![current & future weather displayed](/assets/images/searched1.png)
 
-##### UV Index and Local Storage
+#### UV Index and Local Storage
 The UV index includes a changing color background to emphasize the severity of UV radiation. Users will also gain access to their previously searched cities through their search history which is stored in local storage.
 ![UV index and search history](/assets/images/searched2.png)
 
